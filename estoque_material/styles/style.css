@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: 0;
+}
+
+body {
+  background: #fff;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+input,
+button {
+  font: 14px Roboto, sans-serif;
+}
+
+button {
+  background: #2a62d5;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2454b6;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.navbar {
+  background: #2a62d5;
+  padding: 20px 30px;
+}
+
+.navbar a {
+  font-size: 22px;
+  color: #fff;
+  margin: 0 8px;
+}
+
+.navbar a:hover {
+  opacity: 0.8;
+}
+
+.dropdown-menu {
+  background: #2a62d5;
+}
+
+.dropdown-menu a {
+  font-size: 16px;
+  text-decoration: none;
+  padding: 5px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.div-form {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 50px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #eee;
+  border-radius: 8px;
+}
+
+.div-form h1 {
+  margin-bottom: 25px;
+}
+
+.div-form label {
+  font-size: 20px;
+}
+
+.div-form input {
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px 12px;
+  border: 1px solid #eee;
+  margin: 0 15px;
+}
+
+.div-form select {
+  background: #fff;
+  border-radius: 4px;
+  padding: 10px 18px;
+  border: 1px solid #eee;
+  margin-left: 15px;
+}
+
+.div-form button {
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-weight: bold;
+  width: 200px;
+}
+
+.div-form .button-small {
+  color: #fff;
+  font-size: 16px;
+  border: 0;
+  border-radius: 4px;
+  padding: 10px 24px;
+  font-weight: bold;
+  width: 90px;
+}
+
+.form-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.div-form span {
+  color: #1d7037;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 30px;
+  display: none;
+}
+
+.div-table {
+  max-width: 1200px;
+  margin: 20px auto;
+  padding: 40px;
+  background: #fff;
+}
+
+.div-table table {
+  background: #fff;
+  border-radius: 4px;
+  display: none;
+}
+
+.div-table h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.div-table h2 {
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+tr {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 16px;
+}
